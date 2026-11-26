@@ -1,0 +1,733 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-7">
+    <!-- <link rel="stylesheet" href="../css/program.css"> -->
+	<!--TO BE REPLACED WITH NEXT LINE BEFORE COMMIT-->
+	<link rel="stylesheet" href="css/program.css">
+    <!-- <script>
+        $(document).ready(function(){
+            $("td[class*='color-']").each(function(i,el){
+                $(el).attr("ref",""+i);
+            });
+            $("td[ref]").click(function(el){
+                var ref=$(el.currentTarget).attr("ref");
+                window.location.href = "?contents=detailed_program.html&show="+ref;
+            });
+           
+        });
+      </script> -->
+
+      <!-- New version based on session-ids: -->
+      <script>
+        $(document).ready(function(){
+            $("td[class*='color-']").click(function(){
+                var session = $(this).data("session");
+                if (session) {
+                    window.location.href = "?contents=detailed_program.html&show=" + session;
+                }
+            });
+        });
+      </script>
+      <style>
+        td[ref]{
+            cursor:pointer;
+        }
+      </style>
+</head>
+
+<body class="vsc-initialized" data-new-gr-c-s-check-loaded="14.1155.0" data-gr-ext-installed="" br-mode="off" saccades-color="" fixation-strength="2" saccades-interval="0" style="--fixation-edge-opacity: 80%; --br-line-height: 1; --br-boldness: 600;">
+    <h2 style="font-weight: bold; color: rgb(204, 0, 0);">Program Overview</h2>
+    <p> Times are displayed in Tampere local time (UTC+2).</p>
+
+    <!-- <h5>Current time in Tampere (UTC+2): <span id="theTime"></span></h5><br> -->
+
+    <table class="main-table">
+        <tbody>
+            <tr class="void-row">
+                <td colspan="17"></td>
+            </tr>
+            
+			
+            <tr class="header">
+                <td colspan="17" ref="tabd1"><b>Day 1: Tuesday, March 24, 2026</b></td>
+            </tr>
+            <tr>
+                <td>
+                    8:00-8:40
+                </td>
+                <td class="color-pink" colspan="16" data-session="day1-registration">
+                    <b>Conference Registration</b><br/>
+                    [Main Building Entrance]
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    8:40-9:00
+                </td>
+
+                <td class="color-orange" colspan="16" data-session="day1-icdt-opening">
+                    <b>ICDT Opening</b><br />
+                    [A1 Auditorium]
+                </td>
+			</tr>
+			<tr>
+				<td>
+                    9:00-10:00
+                </td>
+				<td class="color-orange" colspan="10" data-session="day1-keynote1-and-tot">
+                    <b>EDBT/ICDT Keynote by Reinhard Pichler</b><br />
+                    [A1 Auditorium]
+                </td>
+                <td class="color-green" colspan="2" rowspan="2" data-session="day1-dolap1">
+                    <b>DOLAP</b><br />
+                    [D11 Auditorium]
+                </td>
+                <td class="color-purple" colspan="2" rowspan="2" data-session="day1-darliap1">
+                    <b>DARLI-AP</b><br />
+                    [A2a Auditorium]
+                </td>
+                <td class="color-yellow" colspan="2" rowspan="2" data-session="day1-bmda1">
+                    <b>BMDA</b><br />
+                    [A2b Auditorium]
+                </td>
+            </tr>
+			<tr>
+				<td>
+                    10:00-10:30
+                </td>
+				<td class="color-orange" colspan="10" data-session="day1-keynote1-and-tot">
+                    <b>ICDT Test of Time Award</b><br />
+                    [A1 Auditorium]
+                </td>
+               <!--  <td class="color-green" colspan="2">
+                    <b>DOLAP</b><br />
+                </td>
+                <td class="color-purple" colspan="2">
+                    <b>DARLI-AP</b><br />
+                </td>
+                <td class="color-yellow" colspan="2">
+                    <b>BMDA</b><br />
+                </td> -->
+                <!-- <td class="color-dark-pink" colspan="2">
+                    <b>DataEd</b><br />
+                </td>
+                <td class="color-teal" colspan="2">
+                    <b>TGD</b><br />
+                </td>
+                <td class="color-coral" colspan="2">
+                    <b>XAI4Science</b><br />
+                </td>   
+                <td colspan="2">
+                </td>        -->
+			</tr>
+            <tr>
+                <td>
+
+                </td>
+                <td colspan="2">
+
+                </td>
+                <td class="color-dark-pink" colspan="2" rowspan="2" data-session="day1-dataed1">
+                    <b>DataEd</b><br />
+                    [A3 Auditorium]
+                </td>
+                <td colspan="13">
+                    <b>Coffee Break</b><br/>
+                    [Main Auditorium Foyer]
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    11:00-12:30
+                </td>
+                <td class="color-blue" colspan="2" data-session="day1-icdt1">
+                    <b>ICDT Session 1</b><br />
+                    [A1 Auditorium]
+                </td>
+                <!-- <td class="color-dark-pink" colspan="2">
+                    <b>DataEd</b><br />
+                    [A3 Auditorium]
+                </td> -->
+                <td class="color-teal" colspan="2" data-session="day1-tgd1">
+                    <b>TGD</b><br />
+                    [C6 Auditorium]
+                </td>
+                <td class="color-coral" colspan="4" data-session="day1-sponsors">
+                    <b>Sponsor Talks</b><br />
+                    [A4 Auditorium]
+                </td>         
+                <td class="color-green" colspan="2" data-session="day1-dolap2">
+                    <b>DOLAP</b><br />
+                    [D11 Auditorium]
+                </td>
+                <td class="color-purple" colspan="2" data-session="day1-darliap2">
+                    <b>DARLI-AP</b><br />
+                    [A2a Auditorium]
+                </td>
+                <td class="color-yellow" colspan="2" data-session="day1-bmda2">
+                    <b>BMDA</b><br />
+                    [A2b Auditorium]
+                </td>          
+
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+                <td colspan="17" class="padding-20">
+                    <b>Lunch Break</b><br/>[Tampere Hall (3rd floor)]
+                </td>
+            <tr>
+                <td>
+                    14:00-15:00
+                </td>
+                <td class="color-blue" colspan="2" data-session="day1-icdt-invited">
+                    <b>ICDT Invited Lecture (Florent Capelli)</b><br />
+                    [A1 Auditorium]
+                </td>      
+                <td class="color-dark-pink" colspan="2" rowspan="2" data-session="day1-dataed2">
+                    <b>DataEd</b><br />
+                    [A3 Auditorium]
+                </td>
+                <td class="color-teal" colspan="2" rowspan="2" data-session="day1-tgd2">
+                    <b>TGD</b><br />
+                    [C6 Auditorium]
+                </td>
+                <td class="color-gray" colspan="4" rowspan="2" data-session="day1-quallm1">
+                    <b>QuaLLM-KG</b><br />
+                    [A4 Auditorium]
+                </td>
+                <td class="color-green" colspan="2" rowspan="2" data-session="day1-dolap3">
+                    <b>DOLAP</b><br />
+                    [D11 Auditorium]
+                </td>
+                <td class="color-purple" colspan="2" rowspan="2" data-session="day1-darliap3">
+                    <b>DARLI-AP</b><br />
+                    [A2a Auditorium]
+                </td>
+				<td class="color-beige" colspan="2" rowspan="2" data-session="day1-xai4science1">
+                    <b>XAI4Science</b><br />
+                    [A2b Auditorium]
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    15:00-15:30
+                </td>
+
+                <td colspan="2" ></td>
+
+            </tr>
+           
+            <tr>
+                <td>
+
+                </td>
+                <td colspan="16">
+                    <b>Coffee Break</b><br/>
+                    [Main Auditorium Foyer]
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    16:00-17:30
+                </td>
+                <td class="color-blue" colspan="2" data-session="day1-icdt2">
+                    <b>ICDT Session 2</b><br />
+                    [A1 Auditorium]
+                </td>
+                <!-- <td class="color-yellow" colspan="2">
+                    <b>BMDA</b><br />
+                </td> -->
+                <td class="color-dark-pink" colspan="2" data-session="day1-dataed3">
+                    <b>DataEd</b><br />
+                    [A3 Auditorium]
+                </td>
+                <td class="color-teal" colspan="2" data-session="day1-tgd3">
+                    <b>TGD</b><br />
+                    [C6 Auditorium]
+                </td>
+                <td class="color-gray" colspan="4" data-session="day1-quallm2">
+                    <b>QuaLLM-KG</b><br />
+                    [A4 Auditorium]
+                </td>
+                <td class="color-green" colspan="2" data-session="day1-dolap4">
+                    <b>DOLAP</b><br />
+                    [D11 Auditorium]
+                </td>
+                <td class="color-purple" colspan="2" data-session="day1-darliap4">
+                    <b>DARLI-AP</b><br />
+                    [A2a Auditorium]
+                </td>
+                <td class="color-beige" colspan="2" data-session="day1-xai4science2">
+                    <b>XAI4Science</b><br />
+                    [A2b Auditorium]
+                </td>
+            <tr>
+                <td></td>
+                <td class="padding-15" colspan="17"></td>
+            </tr>
+			
+			<tr>
+                <td>
+                    18:00-19:00
+                </td>
+                <td class="color-pink" colspan="17" data-session="day1-moomin">
+                    <b>Guided Walking Tour or Moomin Museum</b>
+                </td>
+            </tr>
+			<tr>
+                <td>
+                    19:00-21:00
+                </td>
+                <td class="color-pink" colspan="17" data-session="day1-city-hall">
+                    <b>Welcome Reception at the Old City Hall</b>
+                </td>
+            </tr>
+			
+			
+			
+			
+			<tr class="header">
+                <td colspan="17" ref="tabd2"><b>Day 2: Wednesday, March 25, 2026</b></td>
+            </tr>
+            <tr>
+                <td>
+                    8:00-8:40
+                </td>
+                <td class="color-pink" colspan="17" data-session="day2-registration">
+                    <b>Conference Registration</b><br/>
+                    [Main Building Entrance]
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    8:40-9:00
+                </td>
+
+                <td class="color-orange" colspan="17" data-session="day2-edbt-opening">
+                    <b>EDBT Opening</b><br />
+                    [Main Auditorium]
+                </td>
+			</tr>
+			<tr>
+                <td>
+                    9:00-10:00
+                </td>
+
+                <td class="color-orange" colspan="17" data-session="day2-keynote-holger">
+                    <b>EDBT/ICDT Keynote by Holger Pirk</b><br />
+                    [Main Auditorium]
+                </td>
+			</tr>
+			<tr>
+				<td>
+                    10:00-10:30
+                </td>
+				<td class="color-orange" colspan="17" data-session="day2-edbt-tot">
+                    <b>EDBT Test of Time Award</b><br />
+                    [Main Auditorium]
+                </td>
+			</tr>
+            <tr>
+                <td>
+
+                </td>
+                <td colspan="17">
+                    <b>Coffee Break</b><br/>
+                    [Main Auditorium Foyer]
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    11:00-12:00
+                </td>
+                <td class="color-blue" colspan="2" data-session="day2-icdt3">
+                    <b>ICDT Session 3</b><br/>
+                    [D11 Auditorium]
+                </td>
+                <td class="color-green" colspan="2" rowspan="2" data-session="day2-edbt1">
+                    <b>EDBT Session 1</b><br />
+                    [A1 Auditorium]
+                </td>
+                <td class="color-coral" colspan="2" rowspan="2" data-session="day2-edbt2">
+                    <b>EDBT Session 2</b><br />
+                    [D10b Auditorium]
+                </td>
+                <td class="color-gray" colspan="5" rowspan="2" data-session="day2-tutorial1">
+                    <b>Tutorial 1: Private LLM Inference with Homomorphic Encryption</b><br />
+                    [A2a Auditorium]
+                </td>
+                <td class="color-beige" colspan="4" rowspan="2" data-session="day2-edbt-demo1">
+                    <b>EDBT Demo Session 1</b><br />
+                    [Café & Aula Toivo]
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    12:00-12:30
+                </td>
+                <td class="color-blue" colspan="2" rowspan="2" data-session="day2-icdt3">
+                    <b>ICDT Business Meeting</b><br/>
+                    [D11 Auditorium]
+                </td>
+                <!-- <td colspan="2"></td> -->
+
+            </tr>
+            <tr>
+                <td>
+                    12:30-13:00
+                </td>
+                
+                <td colspan="17" class="padding-20" rowspan="2">
+                    <b>Lunch Break</b><br/>[Tampere Hall (3rd floor)]
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+                <!-- <td colspan="17" class="padding-20">
+                    <b>Lunch Break</b><br/>[Tampere Hall (3rd floor)]
+                </td> -->
+            <tr>
+                <td>
+                    14:00-15:00
+                </td>
+                <td class="color-orange" colspan="17" data-session="day2-keynote-cristian">
+                    <b>EDBT/ICDT Keynote by Cristian Riveros</b><br/>
+                    [A1 Auditorium]
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+                <td colspan="17">
+                    <b>Break</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    15:15-16:15
+                </td>
+                <td class="color-blue" colspan="2" data-session="day2-icdt4">
+                    <b>ICDT Session 4</b><br/>
+                    [D11 Auditorium]
+                </td>
+                <td class="color-green" colspan="2" data-session="day2-edbt3">
+                    <b>EDBT Session 3</b><br />
+                    [A1 Auditorium]
+                </td>
+                <td class="color-yellow" colspan="2" data-session="day2-edbt4">
+                    <b>EDBT Session 4</b><br />
+                    [A3 Auditorium]
+                </td>
+                <td class="color-teal" colspan="2" data-session="day2-edbt5">
+                    <b>EDBT Session 5</b><br />
+                    [A4 Auditorium]
+                </td>
+                <td class="color-gray" colspan="3" data-session="day2-tutorial2">
+                    <b>Tutorial 2: Privacy-preserving Record Linkage</b><br />
+                    [A2a Auditorium]
+                </td>
+                <td class="color-coral" colspan="4" data-session="day2-yrs-keynotes">
+                    <b>Young Researchers Symposium I - YRS Keynotes</b><br/>
+                    [D10b Auditorium]
+                </td>
+            </tr>
+			<tr>
+                <td>
+
+                </td>
+                <td colspan="17">
+                    <b>Coffee Break</b><br/>
+                    [Main Auditorium Foyer]
+                </td>
+            </tr>		
+			
+            <tr>
+                <td>
+                    16:45-17:45
+                </td>
+                <td class="color-blue" colspan="2" data-session="day2-icdt5">
+                    <b>ICDT Session 5</b><br/>
+                    [D11 Auditorium]
+                </td>
+                <td class="color-green" colspan="2" data-session="day2-edbt6">
+                    <b>EDBT Session 6</b><br />
+                    [A1 Auditorium]
+                </td>
+                <td class="color-yellow" colspan="2" data-session="day2-edbt7">
+                    <b>EDBT Session 7</b><br />
+                    [A3 Auditorium]
+                </td>
+                <td class="color-teal" colspan="2" data-session="day2-edbt8">
+                    <b>EDBT Session 8</b><br />
+                    [A4 Auditorium]
+                </td>
+                <td class="color-gray" colspan="3" data-session="day2-tutorial2-cont">
+                    <b>Tutorial 2 (cont): Privacy-preserving Record Linkage</b><br />
+                    [A2a Auditorium]
+                </td>
+                <td class="color-coral" colspan="4" data-session="day2-yrs-lightning">
+                    <b>Young Researchers Symposium II - PhD Lightning Talks and Speedy Networking</b><br/>
+                    [D10b Auditorium]
+                </td>
+            </tr>
+            <!-- <tr>
+                <td>
+                    17:15-17:45
+                </td>
+
+                <td colspan="3" ></td>
+
+            </tr> -->
+			
+			
+			<tr class="header">
+                <td colspan="17" ref="tabd3"><b>Day 3: Thursday, March 26, 2026</b></td>
+            </tr>
+			<tr>
+                <td>
+                    9:00-10:00
+                </td>
+
+                <td class="color-orange" colspan="17" data-session="day3-keynote-pinar">
+                    <b>EDBT/ICDT Keynote by Pınar Tözün</b><br />
+                    [Main Auditorium]
+                </td>
+			</tr>
+			<tr>
+				<td>
+                    10:00-10:30
+                </td>
+				<td class="color-orange" colspan="17" data-session="day3-best-paper-award">
+                    <b>EDBT & ICDT Best Paper + Best Reviewer Awards</b><br />
+                    [Main Auditorium]
+                </td>
+			</tr>
+            <tr>
+                <td>
+
+                </td>
+                <td colspan="17">
+                    <b>Coffee Break</b><br/>
+                    [Main Auditorium Foyer]
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    11:00-12:30
+                </td>
+                <td class="color-blue" colspan="3" data-session="day3-icdt6">
+                    <b>ICDT Session 6</b><br/>
+                    [D11 Auditorium]
+                </td>
+                <td class="color-green" colspan="3" data-session="day3-edbt9">
+                    <b>EDBT Session 9</b><br />
+                    [A1 Auditorium]
+                </td>
+                <td class="color-coral" colspan="3" data-session="day3-edbt10">
+                    <b>EDBT Session 10</b><br />
+                    [D10b Auditorium]
+                </td>
+                <td class="color-gray" colspan="3" data-session="day3-tutorial3">
+                    <b>Tutorial 3: Disaggregated Data System Architecture</b><br />
+                    [A2a Auditorium]
+                </td>
+                <td class="color-beige" colspan="4" data-session="day3-demo2">
+                    <b>EDBT Demo Session 2</b><br />
+                    [Café & Aula Toivo]
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+                <td colspan="17" class="padding-20">
+                    <b>Lunch Break</b><br/>[Tampere Hall (3rd floor)]
+                </td>
+            
+                <tr>
+                    <td>
+                        14:00-15:00
+                    </td>
+                    <td class="color-orange" colspan="17" data-session="day3-dei-keynote">
+                        <b>DEI Keynote by Thomas Olsson</b><br />
+                        [A1 Auditorium]
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td colspan="17">
+                        <b>Break</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        15:15-16:15
+                    </td>
+                    <td class="color-blue" colspan="3" data-session="day3-icdt7">
+                        <b>ICDT Session 7</b><br/>
+                        [D11 Auditorium]
+                    </td>
+                    <td class="color-green" colspan="3" data-session="day3-edbt11">
+                        <b>EDBT Session 11</b><br />
+                        [A1 Auditorium]
+                    </td>
+                    <td class="color-yellow" colspan="3" data-session="day3-edbt12">
+                        <b>EDBT Session 12</b><br />
+                        [A3 Auditorium]
+                    </td>
+                    <td class="color-teal" colspan="3" data-session="day3-edbt13">
+                        <b>EDBT Session 13</b><br />
+                        [A4 Auditorium]
+                    </td>
+                    <td class="color-coral" colspan="4" data-session="day3-yrs-panel">
+                        <b>Young Researchers Symposium III - Panel</b><br/>
+                        [D10b Auditorium]
+                    </td>
+                    
+                </tr>
+
+
+                <tr>
+                    <td>
+
+                    </td>
+                    <td colspan="17">
+                        <b>Coffee Break</b><br/>
+                    [Main Auditorium Foyer]
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        16:45-18:15
+                    </td>
+                    <td class="color-orange" colspan="17" data-session="day3-joint">
+                        <b>Joint EDBT/ICDT Event</b><br/>
+                        [A1 Auditorium]
+                    </td>
+                </tr>
+            
+			
+			</tr>    
+                <td></td>            
+                <td class="padding-15" colspan="17"></td>
+            </tr>
+			
+			<tr>
+                <td>
+                    20:00-23:30
+                </td>
+                <td class="color-pink" colspan="17" data-session="day3-dinner">
+                    <b>Social Dinner at Solo Sokos Hotel Torni</b>
+                </td>
+            </tr>
+			
+			
+			
+			<tr class="header">
+                <td colspan="17" ref="tabd4"><b>Day 4: Friday, March 27, 2026</b></td>
+            </tr>
+			<tr>
+                <td>
+                    9:00-10:00
+                </td>
+
+                <td class="color-orange" colspan="17" data-session="day4-keynote-alon">
+                    <b>EDBT/ICDT Keynote by Alon Halevy</b><br />
+                    [A1 Auditorium]
+                </td>
+			</tr>
+			<tr>
+				<td>
+                    10:00-10:15
+                </td>
+				<td class="color-orange" colspan="17" data-session="day4-best-demo">
+                    <b>EDBT 2026 Best Demo Award + EDBT/ICDT 2027 Announcement</b><br />
+                    [A1 Auditorium]
+                </td>
+			</tr>
+			<tr>
+                <td>
+
+                </td>
+                <td colspan="17">
+                    <b>Break</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    10:30-11:30
+                </td>
+                <td class="color-green" colspan="4" data-session="day4-edbt14">
+                    <b>EDBT Session 14</b><br />
+                    [A1 Auditorium]
+                </td>
+                <td class="color-teal" colspan="4" data-session="day4-edbt15">
+                    <b>EDBT Session 15</b><br />
+                    [A4 Auditorium]
+                </td>
+                <td class="color-gray" colspan="4" data-session="day4-tutorial4">
+                    <b>Tutorial 4: The Quest for Faster ANN Vector Search</b><br />
+                    [A2a Auditorium]
+                </td>
+                <td class="color-yellow" colspan="4" data-session="day4-tutorial5">
+                    <b>Tutorial 5: Streams Meet Semantics</b><br />
+                    [A3 Auditorium]
+                </td>                
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+                <td colspan="17" class="padding-20">
+                    <b>Coffee Break</b><br/>
+                    [Main Auditorium Foyer]
+                </td>
+			</tr>	
+            <tr>
+				<td>
+                    12:00-13:00
+                </td>
+                <td class="color-green" colspan="4" data-session="day4-edbt18">
+                    <b>EDBT Session 16</b><br />
+                    [A1 Auditorium]
+                </td>
+                <td class="color-teal" colspan="4" data-session="day4-edbt19">
+                    <b>EDBT Session 17</b><br />
+                    [A4 Auditorium]
+                </td>
+                <td class="color-gray" colspan="4" data-session="day4-tutorial4-cont">
+                    <b>Tutorial 4 (cont): The Quest for Faster ANN Vector Search</b><br />
+                    [A2a Auditorium]
+                </td>				
+                </td>
+                <td class="color-yellow" colspan="4" data-session="day4-tutorial5-cont">
+                    <b>Tutorial 5 (cont): Streams Meet Semantics</b><br />
+                    [A3 Auditorium]
+                </td>                
+			</tr>
+            <!-- <tr>
+                <td>
+                    12:30-13:00
+                </td>
+                
+                <td colspan="3"> </td>
+            </tr> -->
+            
+            
+        </tbody>
+    </table>
+<br/>
+
+
+</body>
+</html>

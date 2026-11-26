@@ -1,0 +1,231 @@
+
+<main-content>
+
+    <!-- include Cycle plugin -->
+    <!--<script type="text/javascript" src="https://malsup.github.com/jquery.cycle.all.js"></script>-->
+    <!--<script>
+        $(document).ready(function () {
+            $('.slideshow').cycle({
+                fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+            });
+        });
+    </script>-->
+ <h3> <b> 
+       Welcome to the home of the 2026 EDBT/ICDT Joint Conference, to be held in Tampere, Finland, on March 24 - March 27, 2026.  
+</b></h3>
+
+<br/>
+
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("slideshow");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 5000); // Change image every 5 seconds
+        }
+    </script>
+
+    <a name="imgs_slideshow"></a>
+    <p align="center">
+        <!-- 985x407 prop -->
+        <img class="slideshow" src="images/slideshow/sd1.jpg" style="border: 0px solid ; margin: 0px; padding: 0px; font-size: 12.0084px; height: 400px; width: 700px;" />
+        <img class="slideshow" src="images/slideshow/sd2.jpg" style="border: 0px solid ; margin: 0px; padding: 0px; font-size: 12.0084px; height: 400px; width: 700px;" />
+        <img class="slideshow" src="images/slideshow/sd3.jpg" style="border: 0px solid ; margin: 0px; padding: 0px; font-size: 12.0084px; height: 400px; width: 700px;" />
+        <img class="slideshow" src="images/slideshow/sd4.jpg"style="border: 0px solid ; margin: 0px; padding: 0px; font-size: 12.0084px; height: 400px; width: 700px;" />
+    </p>
+    <br />
+
+    <p align="center">
+        <!-- <div style="border: 1px solid #000; padding: 10px 15px; margin: 20px auto; width: 700px; text-align: center; font-size: 1.05em;">  -->
+            <b>EDBT/ICDT 2026 will take place exclusively onsite. Remote participation and presentations will not be available.</b>
+        <!-- </div> -->
+    </p>
+
+
+    <!-- <p><b>Scam Warning:</b> Some attendees have received fraudulent emails from third-party travel agencies claiming to arrange accommodation for the conference. Please ignore such messages. The conference does not work with any external booking services. Always arrange travel and accommodation on your own and rely only on information provided through our official website.</p> -->
+
+    <p><b>Conference photos:</b> Photos from the conference are available <a href="https://drive.google.com/drive/folders/1hTxG13Fw5PEN8UssLwsUQoUrQcsWybzD" target="_blank">here</a>.</p>
+	
+
+    <br name="conference-description" align="center" />
+    <h2>
+        EDBT: 29th International Conference on Extending Database Technology, 24th March - 27th March, 2026 
+    </h2>
+    <p>
+        The EDBT series of conferences is an established and prestigious forum for the exchange of the latest research results in data management. Held in an attractive European location, the conference provides unique opportunities for database researchers, practitioners, developers, and users to explore new ideas, techniques, and tools, and to exchange experiences. The previous EDBT events were held in Venice, Vienna, Cambridge, Avignon, Valencia, Konstanz, Prague, Heraklion, Munich, Nantes, St Petersburg, Lausanne, Uppsala, Berlin, Genoa, Athens, Brussels, Bordeaux, Venice, Vienna, Lisbon, Copenhagen (virtual), Nicosia (virtual), Edinburgh (virtual), Ioannina, Paestum, and Barcelona. 
+    </p>
+
+    <h2>
+        ICDT: 29th International Conference on Database Theory, 24th March - 27th March, 2026
+    </h2>
+    <p>
+        ICDT is an established and prestigious series of international conferences on research in the foundations and theory of data management. The previous ICDT events were held in Rome, Bruges, Paris, Berlin, Prague, Delphi, Jerusalem, London, Siena, Edinburgh, Barcelona, St Petersburg, Lausanne, Uppsala, Berlin, Genoa, Athens, Brussels, Bordeaux, Venice, Vienna, Lisbon, Copenhagen (virtual), Nicosia (virtual), Edinburgh (virtual), Ioannina, Paestum, and Barcelona. Since 2009, ICDT is held annually and jointly with EDBT, following the successful SIGMOD/PODS model.
+    </p>
+
+
+	<a name="sponsors"></a>
+    <br />
+    <h2>We thank our Sponsors</h2> 
+    
+    <table class="sponsors" border="0" cellpadding="0" cellspacing="2" style="border-bottom: 0px; width: 100%;">
+        <tbody>
+            <tr>
+                <td width="100%" colspan="4">
+                    <h4 style="font-weight:bold;">Gold Sponsors</h4>
+                </td>
+            </tr>
+
+            <tr>                
+                <td width="50%" align="center" style="border-bottom: 0px;">
+                    <a href="https://www.microsoft.com/" target="_blank">
+                        <img src="images/logos/microsoft.jpg" alt="Microsoft" border="0" width="250px" height="" />
+                    </a>
+                </td>  
+                <td width="50%" align="center">
+                    <a href="https://www.snowflake.com/en/" target="_blank">
+                        <img src="images/logos/snowflake.svg" alt="Snowflake" border="0" width="350px" height="200px" />
+                    </a>
+                </td>	
+            </tr>
+            <!-- <tr>
+                <td width="100%" align="center" colspan="3">
+                    <a href="https://www.microsoft.com/" target="_blank">
+                        <img src="images/logos/microsoft.svg" alt="Microsoft" border="0" width="300px" height="" />
+                    </a>
+                </td>	
+            </tr> -->
+        </tbody>
+    </table>
+    <!-- <table class="sponsors" border="0" cellpadding="0" cellspacing="2" style="border-bottom: 0px; width: 100%;"> -->
+        <!-- <tbody> -->
+            <!-- <tr> -->
+                <!-- <td width="100%" colspan="3"> -->
+                    <!-- <h4 style="font-weight:bold;">Silver Sponsors</h4> -->
+                <!-- </td> -->
+            <!-- </tr> -->
+
+            <!-- <tr> -->
+                <!-- <td width="100%" align="center" colspan="3"> -->
+                    <!-- <a href="https://www.itsvil.it" target="_blank"> -->
+                        <!-- <img src="images/logos/itsvil.png" alt="ITSvil" border="0" width="250px" height="" /> -->
+                    <!-- </a> -->
+                <!-- </td> -->
+            <!-- </tr> -->
+        <!-- </tbody> -->
+    <!-- </table> -->
+
+    <!-- <table class="sponsors" border="0" cellpadding="0" cellspacing="2" style="border-bottom: 0px; width: 100%;"> -->
+        <!-- <tbody> -->
+            <!-- <tr> -->
+                <!-- <td width="100%" colspan="6"> -->
+                    <!-- <h4 style="font-weight:bold;">Bronze Sponsors</h4> -->
+                <!-- </td> -->
+            <!-- </tr> -->
+            <!-- <tr> -->
+                <!-- <td width="100%" align="right" style="border-bottom:0px" colspan="3"> -->
+                    <!-- <a href="https://www.ikonsglobal.com/" target="_blank"> -->
+                        <!-- <img src="images/logos/IKONS.png" alt="IKONS" border="0" width="200px" height=""> -->
+                    <!-- </a> -->
+                <!-- </td> -->
+                <!-- <td width="100%" align="left" style="border-bottom:0px;" colspan="3"> -->
+                    <!-- <a href="https://www.neperiagroup.com/" target="_blank"> -->
+                        <!-- <img src="images/logos/neperia.png" alt="Neperia" border="0" width="200px" height=""> -->
+                    <!-- </a> -->
+                <!-- </td> -->
+            <!-- </tr> -->
+            <!-- <tr> -->
+                <!-- <td width="33%" align="center" style="border-bottom: 0px;" colspan="2"> -->
+                    <!-- <a href="https://www.datariver.it/" target="_blank"> -->
+                        <!-- <img src="images/logos/data_river.png" alt="Data River" border="0" width="200px" height=""> -->
+                    <!-- </a> -->
+                <!-- </td> -->
+                <!-- <td width="33%" align="center" style="border-bottom: 0px;" colspan="2"> -->
+                    <!-- <a href="http://www.ultipa.com/" target="_blank"> -->
+                        <!-- <img src="images/logos/ultipa.png" alt="Data River" border="0" width="200px" height=""> -->
+                    <!-- </a> -->
+                <!-- </td> -->
+                    <!-- <td width="33%" align="center" style="border-bottom: 0px;" colspan="2"> -->
+                        <!-- <a href="http://www.ultipa.com/" target="_blank"> -->
+                            <!-- <img src="images/logos/Maticmind.png" alt="Data River" border="0" width="200px" height=""> -->
+                        <!-- </a> -->
+                    <!-- </td> -->
+                    <!-- <td></td> -->
+            <!-- </tr> -->
+            <!-- <tr style="visibility: hidden; margin-bottom: 0px;"> -->
+                <!-- <td colspan="1"></td> -->
+                <!-- <td colspan="1"></td> -->
+                <!-- <td colspan="1"></td> -->
+                <!-- <td colspan="1"></td> -->
+                <!-- <td colspan="1"></td> -->
+                <!-- <td colspan="1"></td> -->
+            <!-- </tr> -->
+        <!-- </tbody> -->
+    <!-- </table> -->
+
+    <table class="sponsors" style="width:100%;" border="0" cellpadding="0" cellspacing="10">
+        <tbody>
+            <tr>
+                <td colspan="5" width="100%">
+                    <h4 style="font-weight:bold;">Local Supporters</h4>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center">                    
+                    <a href="https://www.tuni.fi/en"><img src="images/logos/TAU-logo.jpg" alt="Tampere University" border="0" height="170px" width=""></a>
+                </td>
+                <td align="center">
+                    <a href="https://www.tampere.fi/en" target="_blank"><img src="images/logos/tampere_city.jpg" alt="Tampere" border="0" height="170px" width=""></a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br />
+	
+	
+    <h2>NEWS</h2>
+    <p> <b>February, 2026</b> - The <a href="?contents=awards.html">EDBT 2026 and ICDT 2026 Best Paper Awards</a> are announced.</p>
+    
+    <p> <b>January, 2026</b> - The <a href="?contents=program_overview.html">conference program</a> is announced.</p>
+    
+    <p> <b>December, 2025</b> - The <a href="?contents=ICDT_Test-of-time.html">ICDT Test-of-Time Award</a> is announced.</p>
+    
+    <p> <b>November, 2025</b> - The <a href="?contents=awards_tot_edbt.html">EDBT 2026 Test-of-Time award</a> is announced.
+
+    <p> <b>November, 2025</b> - The <a href="?contents=registration.html">EDBT/ICDT 2026 registration</a> is now open. </p>
+
+    <p> <b>October, 2025</b> - The <a href="?contents=call_for_tutorials.html">EDBT/ICDT Call for Tutorials</a> and the <a href="?contents=invited_keynotes.html">Invited Keynotes</a> are announced. <a href="?contents=young_researcher_symposium.html">Young Researcher Symposium</a> (replacing the traditional PhD Workshop) is also announced.</p>
+
+    <p> <b>September, 2025</b> - The Call for Nominations for the <a href="?contents=ICDT_Test-of-time.html">ICDT Test-of-Time Award</a> is announced. </p>
+
+    <p> <b>August, 2025</b> - The <a href="?contents=call_for_demos.html">EDBT Call for Demos</a> is announced. </p>
+    
+    <p> <b>July, 2025</b> - The <a href="?contents=call_for_WP.html">EDBT/ICDT Call for Workshop Proposals</a> is announced. </p>
+
+    <p> <b>January, 2025</b> - The <a href="?contents=ICDT_CFP.html">ICDT 2026 Call for Papers</a> is announced. </p> 
+	
+	<p> <b>December, 2024</b> - The <a href="?contents=ICDT_Committee.html">ICDT 2026 Committees</a>  are announced. </p>
+	
+	<p> <b>November, 2024</b> - The <a href="?contents=EDBT_Committee.html">EDBT 2026 Committees</a> are announced. </p> 
+
+	<p> <b>October, 2024</b> - The <a href="?contents=call_for_IAP.html">EDBT 2026 Industrial and Application Track Call for Papers</a> is online . </p> 
+
+	<p> <b>May, 2024</b> - The <a href="?contents=EDBT_CFP.html">EDBT 2026 Research Track Call for Papers</a> is online. </p> 
+
+	<p> <b>May, 2024</b> - Launch of the EDBT/ICDT 2026 website. </p>
+        <a href="./?contents=news.html">
+            <span style="color: rgb(207, 34, 52);">
+                <b/> All news
+            </span>
+        </a>
+    </p>
+</main-content>
